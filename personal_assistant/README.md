@@ -11,6 +11,7 @@ Comments, suggestions, edits, and tips are welcome and appreciated.
 -e, --email     specify the email to send the message to
 -s, --subject   specify the subject for the email to have
 -v              verbose output
+```
 
 ## License
 
