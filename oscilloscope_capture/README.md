@@ -1,6 +1,6 @@
 # Oscilloscope Capture
 
-This program is designed to capture events from a Tektronix DPO3000 oscilloscope over ethernet via a python-telnet script. This was in particular written to capture rise-time and amplitude on two channels of the scope, but it could easily be modified for almost any function of the DPO3000. The manual (see NOTES) is good about describing the commands and interface.
+This program is designed to capture events from a Tektronix DPO3000 oscilloscope over ethernet via a python-telnet script. This was in particular written to capture rise-time and amplitude on two channels of the scope, but it could easily be modified for almost any function of the DPO3000. The manual (see Notes) is good about describing the commands and interface.
 
 Comments, suggestions, edits, and tips are welcome and appreciated.
 
@@ -13,19 +13,20 @@ Tektronix manual
 http://www.tequipment.net/assets/1/26/Documents/Tektronix/dpo3000_programmermanual.pdf
 
 ### Usage
+```
 Arguments:
 -h, --help\t\tdisplay this help and exit
--i, --ip\t\tspecify the ip that the scope is at"
--p, --port\t\tspecify the port the scope is listening on"
--t, --timeout\t\tspecify the amount of time to wait for a reply"
--f, --file\t\tspecify the file to write data to"
--g, --images\t\tspecify the image name prefix, save under a folder by using foo/bar"
--n, --samples\t\tspecify the number of samples to capture"
--o, --offset\t\tallows the user to start at any sample number"
--w, --warn\t\tis a planned function that allows the program to send info or warning emails"
--c, --two_ch\t\ttwo channel capture"
--v\t\t\tverbose output"
-
+-i, --ip\t\tspecify the ip that the scope is at
+-p, --port\t\tspecify the port the scope is listening on
+-t, --timeout\t\tspecify the amount of time to wait for a reply
+-f, --file\t\tspecify the file to write data to
+-g, --images\t\tspecify the image name prefix, save under a folder by using foo/bar
+-n, --samples\t\tspecify the number of samples to capture
+-o, --offset\t\tallows the user to start at any sample number
+-w, --warn\t\tis a planned function that allows the program to send info or warning emails
+-c, --two_ch\t\ttwo channel capture
+-v\t\t\tverbose output
+```
 ## License
 
 Copyright (C) 2015  Kyle Colton

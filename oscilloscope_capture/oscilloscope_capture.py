@@ -261,7 +261,7 @@ def help():
 	print "  -w, --warn\t\tis a planned function that allows the program to send info or warning emails"
 	print "  -c, --two_ch\t\ttwo channel capture"
 	print "  -v\t\t\tverbose output"
-	print "\nCreated by Kyle Colton, \nComments, tips, edits, etc. are welcome\nVersion 0.4\n"
+	print "\nCreated by Kyle Colton\nComments, tips, edits, etc. are welcome\nVersion 0.4\n"
 
 def graceful_exit(m,status,to_address = 'NA'):
 	# Future function to come
